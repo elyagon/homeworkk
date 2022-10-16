@@ -33,6 +33,21 @@ public class Main {
         System.out.println("Задание 3.3");
         for (int f = 1; f <= 512; f = f * 2)
             System.out.println(f);
-
+     //Домашнее задание 1.3
+        System.out.println("Задание 1.3");
+        int capital = 29000;
+        int total = 0;
+        for (int m =1; m <= 12; m++){
+            total = total + capital;
+            System.out.println("Месяц " + m + ", сумма накоплений равна " + total +" рублей");
+        }
+        System.out.println("Задание 2.3");
+        int storage = 29000;
+        int full = 0;
+        for (int m =1; m <= 12; m++){
+            full = full + full/100;
+            full = full + storage;
+            System.out.println("Месяц " + m + ", сумма накоплений равна " + full +" рублей");
+        }
     }
 }
