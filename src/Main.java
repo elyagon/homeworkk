@@ -19,5 +19,20 @@ public class Main {
         for (int c = 10; c > -11; c--) {
             System.out.println(c);
         }
+        //Домашнее задание 1.2
+        System.out.println("Задание 1.2");
+        for (int d = 1904; d <= 2096; d= d+4) {
+            System.out.println(d+" год является високосным");
+        }
+        //Задание 2
+        System.out.println("Задание 2.2");
+        for (int e = 7; e <= 98; e = e+7) {
+            System.out.println(e);
+        }
+        //Задание 3
+        System.out.println("Задание 3.3");
+        for (int f = 1; f <= 512; f = f * 2)
+            System.out.println(f);
+
     }
 }
